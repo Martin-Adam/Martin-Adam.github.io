@@ -1,101 +1,108 @@
-<link rel="stylesheet" type="text/css" href="noc.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="noc.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <title>No Crowd Control</title>
+</head>
+<body>
+    <div id="TOP">
+        <span onclick="pageTop()"><i class="fa fa-angle-double-up" style="font-size:30px;color:lightblue;background-color:white;"></i></span>
+    </div>
+    <div class="D-col_12 T-col_12 M-col_12 marg-top-15" id="header">
+        <h1>No Crowd Control</h1>
+        <h2>Icajewler</h2>
+    </div>
+    <div class="D-col_12 T-col_12 M-col_12" id="mobileHeader">
+    </div>
+    <div class="col_12 marg-top-15" id="body">
+        <div class="D-col_2 T-col_4 M-col_12">
+            <h3 data-name="News">News</h3>
+        </div>
+        <div class="D-col_2 T-col_4 M-col_12">
+            <h3 data-name="Tips">Tips</h3>
+        </div>
+        <div class="D-col_2 T-col_4 M-col_12">
+            <h3 data-name="Rules">Rules</h3>
+        </div>
+        <div class="D-col_2 T-col_4 M-col_12">
+            <h3 data-name="Donts">Don'ts</h3>
+        </div>
+        <div class="D-col_2 T-col_4 M-col_12">
+            <h3 data-name="Other">Other Resources</h3>
+        </div>
+        <div class="D-col_2 T-col_4 M-col_12">
+            <h3 data-name="Squads">Squads</h3>
+        </div>
+        <div class="D-col_12 T-col_12 M-col_12" id="News">
+            <p>
+                Welcome to our first try at a website out reach for our guild! If you have any input or anything you would like to see please message TheFlash087 in our guild.
+            </p>
+        </div>
+        <div class="D-col_12 T-col_12 M-col_12" id="Tips">
+            <p>
+                <h4>Heavy Hitters</h4> One man can take on an army, donate to our heavy hitter(s). Ask who they are.
+            </p>
 
+            <p>
+                <h4>Magazines</h4> Daily missions is a great source for magazines to upgrade your commander.
+                <br> In Explore mode attack every Skulled mission to receive a free magazine every day.
+            </p>
 
-<div id="TOP">
-  <span onclick="pageTop()"><i class="fa fa-angle-double-up" style="font-size:30px;color:lightblue;background-color:white;"></i></span>
-</div>
-<div class="D-col_12 T-col_12 M-col_12 marg-top-15" id="header">
-  <h1>No Crowd Control</h1>
-  <h2>Icajewler</h2>
-</div>
-<div class="D-col_12 T-col_12 M-col_12" id="mobileHeader">
-</div>
-<div class="col_12 marg-top-15" id="body">
-  <div class="D-col_2 T-col_4 M-col_12">
-    <h3 data-name="News">News</h3>
-  </div>
-  <div class="D-col_2 T-col_4 M-col_12">
-    <h3 data-name="Tips">Tips</h3>
-  </div>
-  <div class="D-col_2 T-col_4 M-col_12">
-    <h3 data-name="Rules">Rules</h3>
-  </div>
-  <div class="D-col_2 T-col_4 M-col_12">
-    <h3 data-name="Donts">Don'ts</h3>
-  </div>
-  <div class="D-col_2 T-col_4 M-col_12">
-    <h3 data-name="Other">Other Resources</h3>
-  </div>
-  <div class="D-col_2 T-col_4 M-col_12">
-    <h3 data-name="Squads">Squads</h3>
-  </div>
-  <div class="D-col_12 T-col_12 M-col_12" id="News">
-<p>
-  Welcome to our first try at a website out reach for our guild! If you have any input or anything you would like to see please message TheFlash087 in our guild.
-    </p>
-  </div>
-  <div class="D-col_12 T-col_12 M-col_12" id="Tips">
-    <p>
-      <h4>Heavy Hitters</h4> One man can take on an army, donate to our heavy hitter(s). Ask who they are.
-    </p>
+            <p>
+                <h4>Guild Fort</h4> You can store 6 million resources for safe keeping (as long as the guild fort is under level 3) once every 24 hours using storage
+            </p>
 
-    <p>
-      <h4>Magazines</h4> Daily missions is a great source for magazines to upgrade your commander.
-      <br> In Explore mode attack every Skulled mission to receive a free magazine every day.
-    </p>
+            <p>
+                <h4>Commander</h4> Have a lead commander that will be the brute force of your army. Upgrade his leadership using magazines. Also remember to craft gear for them.
+            </p>
 
-    <p>
-      <h4>Guild Fort</h4> You can store 6 million resources for safe keeping (as long as the guild fort is under level 3) once every 24 hours using storage
-    </p>
+            <p>
+                <h4>Equipment</h4> Legendarys - Gale, Souleater, dragonslayer, sunstriker, chelydra, etc. Find their blueprints in the shop and craft to meet the requirements, or you can buy them in the shop. (Good base stats are important!)
+            </p>
 
-    <p>
-      <h4>Commander</h4> Have a lead commander that will be the brute force of your army. Upgrade his leadership using magazines. Also remember to craft gear for them.
-    </p>
+            <p>
+                <h4>Protecting your base</h4> Train a minimum of 50,000 Rangers. Turn off auto garrison, and turn off auto refill. Remember to heal/build more rangers when you get attacked.
+                <br> If you are on enriched space and get attacked you will be teleported at least 50 tiles away from the area, along with your commanders. If you have resources sent out you will receive them back as well (if timed right you can save all/most of
+                your resources before you are hit without losing a single one)
+                <br> Constantly moving 6 spaces will make it so bookmarks on you disappear. Keep it moving!
+            </p>
 
-    <p>
-      <h4>Equipment</h4> Legendarys - Gale, Souleater, dragonslayer, sunstriker, chelydra, etc. Find their blueprints in the shop and craft to meet the requirements, or you can buy them in the shop. (Good base stats are important!)
-    </p>
+            <p>
+                <h4>Temporary protection for units</h4> Have a commander go into explore mode with the units you want to protect.
+            </p>
 
-    <p>
-      <h4>Protecting your base</h4> Train a minimum of 50,000 Rangers. Turn off auto garrison, and turn off auto refill. Remember to heal/build more rangers when you get attacked.
-      <br> If you are on enriched space and get attacked you will be teleported at least 50 tiles away from the area, along with your commanders. If you have resources sent out you will receive them back as well (if timed right you can save all/most of
-      your resources before you are hit without losing a single one)
-      <br> Constantly moving 6 spaces will make it so bookmarks on you disappear. Keep it moving!
-    </p>
+            <p>
+                <h4>Hull</h4> Ares Hull. This hull is the most effient way to have a good hull for a reasonable price. You can buy the blueprints from the shop for the equipment and then farm the shadow matter. No real money needed.
+            </p>
 
-    <p>
-      <h4>Temporary protection for units</h4> Have a commander go into explore mode with the units you want to protect.
-    </p>
+            <p>
+                <h4>Quickly raise your power</h4> Upgrade your gas collector, forge, hull, then bridge. Repeat till level 15. Then upgrade recycling and research lab. Then you focus on Tier 5 units.
+            </p>
+        </div>
+        <div class="D-col_12 T-col_12 M-col_12" id="Rules">
+            <p>
+                Must give warning if you are going to be knowingly inactive for 3 days. (You will be kicked from the guild if inactive any long then that)
+            </p>
+        </div>
+        <div class="D-col_12 T-col_12 M-col_12" id="Donts">
+            <p>
+                Do not upgrade the guild fort, when it hits level 3 it can be attacked and we will lose our storage. (If about to be attacked and on an enriched area, time it right and you can send your resources out and they will be returned to you when you are attacked)
+            </p>
+        </div>
+        <div class="D-col_12 T-col_12 M-col_12" id="Other">
+            <p>
+                Line App - send a message to icajewler and your username and I will invite you (Officers are required to join)
+            </p>
+        </div>
+        <div class="D-col_12 T-col_12 M-col_12" id="Squads">
+            <p>
+                In Progress
+            </p>
+        </div>
+    </div>
 
-    <p>
-      <h4>Hull</h4> Ares Hull. This hull is the most effient way to have a good hull for a reasonable price. You can buy the blueprints from the shop for the equipment and then farm the shadow matter. No real money needed.
-    </p>
+    <script src="noc.js"></script>
 
-    <p>
-      <h4>Quickly raise your power</h4> Upgrade your gas collector, forge, hull, then bridge. Repeat till level 15. Then upgrade recycling and research lab. Then you focus on Tier 5 units.
-    </p>
-  </div>
-<div class="D-col_12 T-col_12 M-col_12" id="Rules">
-  <p>
-    Must give warning if you are going to be knowingly inactive for 3 days. (You will be kicked from the guild if inactive any long then that)
-  </p>
-  </div>
-<div class="D-col_12 T-col_12 M-col_12" id="Donts">
-  <p>
-  Do not upgrade the guild fort, when it hits level 3 it can be attacked and we will lose our storage. (If about to be attacked and on an enriched area, time it right and you can send your resources out and they will be returned to you when you are attacked)
-  </p>
-  </div>
-<div class="D-col_12 T-col_12 M-col_12" id="Other">
-  <p>
-  Line App - send a message to icajewler and your username and I will invite you (Officers are required to join)
-  </p>
-  </div>
-<div class="D-col_12 T-col_12 M-col_12" id="Squads">
-  <p>
-  In Progress
-  </p>
-  </div>
-</div>
-
-<script src="noc.js"></script>
+</body>
+</html>
