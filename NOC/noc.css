@@ -1,0 +1,564 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: darkred;
+}
+.col_12,
+.col_11,
+.col_10,
+.col_9,
+.col_8,
+.col_7,
+.col_6,
+.col_5,
+.col_4,
+.col_3,
+.col_2,
+.col_1 {
+  float: left;
+}
+
+.col_12 {
+  width: 100%;
+}
+
+.col_11 {
+  width: 88.025%;
+  margin-left: 1.9%;
+}
+
+.col_10 {
+  width: 79.85%;
+  margin-left: 1.9%;
+}
+
+.col_9 {
+  width: 71.675%;
+  margin-left: 1.9%;
+}
+
+.col_8 {
+  width: 63.5%;
+  margin-left: 1.9%;
+}
+
+.col_7 {
+  width: 55.325%;
+  margin-left: 1.9%;
+}
+
+.col_6 {
+  width: 47.15%;
+  margin-left: 1.9%;
+}
+
+.col_5 {
+  width: 38.975%;
+  margin-left: 1.9%;
+}
+
+.col_4 {
+  width: 30.8%;
+  margin-left: 1.9%;
+}
+
+.col_3 {
+  width: 22.625%;
+  margin-left: 1.9%;
+}
+
+.col_2 {
+  width: 14.45%;
+  margin-left: 1.9%;
+}
+
+.col_1 {
+  width: 6.275%;
+  margin-left: 1.9%;
+}
+
+@media only screen and (min-width:1025px) {
+  .D-col_12,
+  .D-col_11,
+  .D-col_10,
+  .D-col_9,
+  .D-col_8,
+  .D-col_7,
+  .D-col_6,
+  .D-col_5,
+  .D-col_4,
+  .D-col_3,
+  .D-col_2,
+  .D-col_1 {
+    float: left;
+  }
+  .D-col_12 {
+    width: 96.2%;
+    margin-left: 1.9%;
+  }
+  .D-col_11 {
+    width: 88.025%;
+    margin-left: 1.9%;
+  }
+  .D-col_10 {
+    width: 79.85%;
+    margin-left: 1.9%;
+  }
+  .D-col_9 {
+    width: 71.675%;
+    margin-left: 1.9%;
+  }
+  .D-col_8 {
+    width: 63.5%;
+    margin-left: 1.9%;
+  }
+  .D-col_7 {
+    width: 55.325%;
+    margin-left: 1.9%;
+  }
+  .D-col_6 {
+    width: 47.15%;
+    margin-left: 1.9%;
+  }
+  .D-col_5 {
+    width: 38.975%;
+    margin-left: 1.9%;
+  }
+  .D-col_4 {
+    width: 30.8%;
+    margin-left: 1.9%;
+  }
+  .D-col_3 {
+    width: 22.625%;
+    margin-left: 1.9%;
+  }
+  .D-col_2 {
+    width: 14.45%;
+    margin-left: 1.9%;
+  }
+  .D-col_1 {
+    width: 6.275%;
+    margin-left: 1.9%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .T-col_12,
+  .T-col_11,
+  .T-col_10,
+  .T-col_9,
+  .T-col_8,
+  .T-col_7,
+  .T-col_6,
+  .T-col_5,
+  .T-col_4,
+  .T-col_3,
+  .T-col_2,
+  .T-col_1 {
+    float: left;
+  }
+  .T-col_12 {
+    width: 97.2%;
+    margin-left: 1.4%;
+  }
+  .T-col_11 {
+    width: 88.98333333%;
+    margin-left: 1.4%;
+  }
+  .T-col_10 {
+    width: 80.7666666%;
+    margin-left: 1.4%;
+  }
+  .T-col_9 {
+    width: 72.55%;
+    margin-left: 1.4%;
+  }
+  .T-col_8 {
+    width: 64.33333333%;
+    margin-left: 1.4%;
+  }
+  .T-col_7 {
+    width: 56.1166666%;
+    margin-left: 1.4%;
+  }
+  .T-col_6 {
+    width: 47.9%;
+    margin-left: 1.4%;
+  }
+  .T-col_5 {
+    width: 39.68333333%;
+    margin-left: 1.4%;
+  }
+  .T-col_4 {
+    width: 31.4666666%;
+    margin-left: 1.4%;
+  }
+  .T-col_3 {
+    width: 23.25%;
+    margin-left: 1.4%;
+  }
+  .T-col_2 {
+    width: 15.03333333%;
+    margin-left: 1.4%;
+  }
+  .T-col_1 {
+    width: 6.81666666%;
+    margin-left: 1.4%;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .M-col_13,
+  .M-col_12,
+  .M-col_11,
+  .M-col_10,
+  .M-col_9,
+  .M-col_8,
+  .M-col_7,
+  .M-col_6,
+  .M-col_5,
+  .M-col_4,
+  .M-col_3,
+  .M-col_2,
+  .M-col_1 {
+    float: left;
+  }
+  .M-col_13 {
+    width: 100%;
+  }
+  .M-col_12 {
+    width: 98%;
+    margin-left: 1%;
+  }
+  .M-col_11 {
+    width: 89.75%;
+    margin-left: 1%;
+  }
+  .M-col_10 {
+    width: 81.5%;
+    margin-left: 1%;
+  }
+  .M-col_9 {
+    width: 73.25%;
+    margin-left: 1%;
+  }
+  .M-col_8 {
+    width: 65%;
+    margin-left: 1%;
+  }
+  .M-col_7 {
+    width: 56.75%;
+    margin-left: 1%;
+  }
+  .M-col_6 {
+    width: 48.5%;
+    margin-left: 1%;
+  }
+  .M-col_5 {
+    width: 40.25%;
+    margin-left: 1%;
+  }
+  .M-col_4 {
+    width: 32%;
+    margin-left: 1%;
+  }
+  .M-col_3 {
+    width: 23.75%;
+    margin-left: 1%;
+  }
+  .M-col_2 {
+    width: 15.5%;
+    margin-left: 1%;
+  }
+  .M-col_1 {
+    width: 7.25%;
+    margin-left: 1%;
+  }
+}
+
+
+/* 
+    FOR FLOATING TO THE RIGHT 
+*/
+
+@media only screen and (min-width:1025px) {
+  .D-col_12-r,
+  .D-col_11-r,
+  .D-col_10-r,
+  .D-col_9-r,
+  .D-col_8-r,
+  .D-col_7-r,
+  .D-col_6-r,
+  .D-col_5-r,
+  .D-col_4-r,
+  .D-col_3-r,
+  .D-col_2-r,
+  .D-col_1-r {
+    float: right;
+  }
+  .D-col_12-r {
+    width: 96.2%;
+    margin-right: 1.9%;
+  }
+  .D-col_11-r {
+    width: 88.025%;
+    margin-right: 1.9%;
+  }
+  .D-col_10-r {
+    width: 79.85%;
+    margin-right: 1.9%;
+  }
+  .D-col_9-r {
+    width: 71.675%;
+    margin-right: 1.9%;
+  }
+  .D-col_8-r {
+    width: 63.5%;
+    margin-right: 1.9%;
+  }
+  .D-col_7-r {
+    width: 55.325%;
+    margin-right: 1.9%;
+  }
+  .D-col_6-r {
+    width: 47.15%;
+    margin-right: 1.9%;
+  }
+  .D-col_5-r {
+    width: 38.975%;
+    margin-right: 1.9%;
+  }
+  .D-col_4-r {
+    width: 30.8%;
+    margin-right: 1.9%;
+  }
+  .D-col_3-r {
+    width: 22.625%;
+    margin-right: 1.9%;
+  }
+  .D-col_2-r {
+    width: 14.45%;
+    margin-right: 1.9%;
+  }
+  .D-col_1-r {
+    width: 6.275%;
+    margin-right: 1.9%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .T-col_12-r,
+  .T-col_11-r,
+  .T-col_10-r,
+  .T-col_9-r,
+  .T-col_8-r,
+  .T-col_7-r,
+  .T-col_6-r,
+  .T-col_5-r,
+  .T-col_4-r,
+  .T-col_3-r,
+  .T-col_2-r,
+  .T-col_1-r {
+    float: right;
+  }
+  .T-col_12-r {
+    width: 97.2%;
+    margin-right: 1.4%;
+  }
+  .T-col_11-r {
+    width: 88.98333333%;
+    margin-right: 1.4%;
+  }
+  .T-col_10-r {
+    width: 80.7666666%;
+    margin-right: 1.4%;
+  }
+  .T-col_9-r {
+    width: 72.55%;
+    margin-right: 1.4%;
+  }
+  .T-col_8-r {
+    width: 64.33333333%;
+    margin-right: 1.4%;
+  }
+  .T-col_7-r {
+    width: 56.1166666%;
+    margin-right: 1.4%;
+  }
+  .T-col_6-r {
+    width: 47.9%;
+    margin-right: 1.4%;
+  }
+  .T-col_5-r {
+    width: 39.68333333%;
+    margin-right: 1.4%;
+  }
+  .T-col_4-r {
+    width: 31.4666666%;
+    margin-right: 1.4%;
+  }
+  .T-col_3-r {
+    width: 23.25%;
+    margin-right: 1.4%;
+  }
+  .T-col_2-r {
+    width: 15.03333333%;
+    margin-right: 1.4%;
+  }
+  .T-col_1-r {
+    width: 6.81666666%;
+    margin-right: 1.4%;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .M-col_13-r,
+  .M-col_12-r,
+  .M-col_11-r,
+  .M-col_10-r,
+  .M-col_9-r,
+  .M-col_8-r,
+  .M-col_7-r,
+  .M-col_6-r,
+  .M-col_5-r,
+  .M-col_4-r,
+  .M-col_3-r,
+  .M-col_2-r,
+  .M-col_1-r {
+    float: right;
+  }
+  .M-col_13-r {
+    width: 100%;
+  }
+  .M-col_12-r {
+    width: 98%;
+    margin-right: 1%;
+  }
+  .M-col_11-r {
+    width: 89.75%;
+    margin-right: 1%;
+  }
+  .M-col_10-r {
+    width: 81.5%;
+    margin-right: 1%;
+  }
+  .M-col_9-r {
+    width: 73.25%;
+    margin-right: 1%;
+  }
+  .M-col_8-r {
+    width: 65%;
+    margin-right: 1%;
+  }
+  .M-col_7-r {
+    width: 56.75%;
+    margin-right: 1%;
+  }
+  .M-col_6-r {
+    width: 48.5%;
+    margin-right: 1%;
+  }
+  .M-col_5-r {
+    width: 40.25%;
+    margin-right: 1%;
+  }
+  .M-col_4-r {
+    width: 32%;
+    margin-right: 1%;
+  }
+  .M-col_3-r {
+    width: 23.75%;
+    margin-right: 1%;
+  }
+  .M-col_2-r {
+    width: 15.5%;
+    margin-right: 1%;
+  }
+  .M-col_1-r {
+    width: 7.25%;
+    margin-right: 1%;
+  }
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: skyblue;
+  text-transform: uppercase;
+  font-size: 2em;
+  text-shadow: 0px 0px 2px lightblue, 0px 0px 5px blue, 0px 0px 5px lightblue;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: lightblue;
+  text-transform: lowercase;
+  font-size: 1.5em;
+  text-shadow: 0px 0px 2px skyblue, 0px 0px 5px blue, 0px 0px 5px skyblue;
+  text-align: center;
+}
+h2 span, h1 span {
+  background-color: white;
+}
+
+h3 {
+  border-right:thin solid #ff0000;
+  border-top:thin solid #ff0000;
+  border-top-right-radius: 2em;
+  text-align: center;
+}
+h3:hover {
+  background-color: lightgrey;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+#header {
+  background-image: url(http://osg1.com/wp-content/uploads/2016/04/arkofwar01.png);
+  background-size: contain;
+  background-position: 10%;
+  background-repeat: no-repeat;
+}
+
+#body {
+  background-color: white;
+}
+
+.marg-top-15 {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  #header {
+    background-image: url("");
+  }
+  
+  #mobileHeader {
+    background-image: url(http://osg1.com/wp-content/uploads/2016/04/arkofwar01.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    content: "TBH";
+  }
+}
+
+#Tips, #Rules, #Donts, #Other {
+  display: none;
+  padding-bottom: 30px;
+}
+
+#TOP {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  display: none;
+}
