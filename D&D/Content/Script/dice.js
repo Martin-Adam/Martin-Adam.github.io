@@ -14,5 +14,6 @@ function roll() {
         }
         output += arraylist[arraylist.length - 1];
         $("#Numbers").html("<h2>" + output + "</h2>");
+	$("html, body").scrollTop($(document).height());
     }
 }
