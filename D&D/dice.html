@@ -1,37 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dice Roll</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
-    <script src="Content/Scripts/dice.js" defer></script>
+    <script src="Content/Script/dice.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="Content/Style/dice.css">
 </head>
+
 <body>
+    <div class="unselectable">
+        <h3>How many dice?</h3>
+        <input type="radio" id="num1" name="num" value="1">
+        <label for="num1">1</label>
+        <input type="radio" id="num2" name="num" value="2">
+        <label for="num2">2</label>
+        <input type="radio" id="num3" name="num" value="3">
+        <label for="num3">3</label>
+        <input type="radio" id="num4" name="num" value="4">
+        <label for="num4">4</label>
+        <input type="radio" id="num5" name="num" value="5">
+        <label for="num5">5</label>
+    </div>
+    <div class="unselectable">
+        <h3>What sided dice?</h3>
+        <input type="radio" id="dice4" name="dice" value="4">
+        <label for="dice4">4</label>
+        <input type="radio" id="dice6" name="dice" value="6">
+        <label for="dice6">6</label>
+        <input type="radio" id="dice8" name="dice" value="8">
+        <label for="dice8">8</label>
+        <input type="radio" id="dice10" name="dice" value="10">
+        <label for="dice10">10</label>
+        <input type="radio" id="dice12" name="dice" value="12">
+        <label for="dice12">12</label>
+        <input type="radio" id="dice20" name="dice" value="20">
+        <label for="dice20">20</label>
+        <input type="radio" id="dice30" name="dice" value="30">
+        <label for="dice30">30</label>
+    </div>
 
-<p>
-    How many dice:
-    <select id="number">
-        <option selected>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-    </select>
-</p>
-<p>
-    What sided dice:
-    <select id="diceamount">
-        <option>4</option>
-        <option>6</option>
-        <option>8</option>
-        <option>10</option>
-        <option>12</option>
-        <option>20</option>
-        <option>30</option>
-    </select>
-</p>
-<button onclick="roll()">Do the rolls</button>
+    <div class="unselectable">
+        <button id="roll" onclick="roll()">Do the rolls</button>
 
-<div id="Numbers">
-</div>
+        <div id="Numbers">
+        </div>
+    </div>
+
 </body>
 </html>
