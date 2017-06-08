@@ -1,0 +1,73 @@
+header {
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.25em;
+}
+
+#headerContent {
+  display: inline-block;
+  padding: 15px;
+}
+#headerContent a:not(:first-of-type) i, a span {
+  padding-left: 15px;
+}
+
+#headerContent a:first-of-type i {
+  color: #0077B5;
+}
+
+#headerContent a:nth-of-type(2) i {
+  color: #FFFFFF;
+}
+
+#headerContent a:nth-of-type(2) i {
+  color: #FFFFFF;
+}
+
+#headerContent a:nth-of-type(3) i {
+  color: #FFFFFF;
+}
+
+#headerContent a i:hover, a span:hover {
+  color: grey;
+}
+
+#mainContent {
+  margin: 0 auto;
+  float: none;
+  padding-bottom: 15px;
+}
+
+#mainContent h2{
+  border-bottom: 1px solid lightgrey;
+}
+#mainContent h3 {
+  color: #255B6A;
+  margin-bottom: 0;
+}
+#mainContent h5 {
+  color: lightgrey;
+  margin: 0;
+}
+#mainContent h5 + p {
+  padding-top: 10px;
+}
+
+#skills {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+}
+
+#skills li:not(:last-of-type):after{
+  content: ",";
+}
+
+#skills li:last-of-type:before{
+  content: "and ";
+}
